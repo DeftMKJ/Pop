@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		53EF9C35E182921CF818778A /* libPods-CMPopTip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B9C16949ADC3DA3F2BAA890 /* libPods-CMPopTip.a */; };
 		695C6BFF1D1A257B000B5FA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 695C6BFE1D1A257B000B5FA6 /* main.m */; };
 		695C6C021D1A257B000B5FA6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 695C6C011D1A257B000B5FA6 /* AppDelegate.m */; };
 		695C6C051D1A257B000B5FA6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 695C6C041D1A257B000B5FA6 /* ViewController.m */; };
@@ -15,6 +16,12 @@
 		695C6C0D1D1A257B000B5FA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 695C6C0B1D1A257B000B5FA6 /* LaunchScreen.storyboard */; };
 		695C6C181D1A257B000B5FA6 /* CMPopTipTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 695C6C171D1A257B000B5FA6 /* CMPopTipTests.m */; };
 		695C6C231D1A257B000B5FA6 /* CMPopTipUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 695C6C221D1A257B000B5FA6 /* CMPopTipUITests.m */; };
+		695C6C321D1A2AE9000B5FA6 /* MKJAFNetWorkHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 695C6C301D1A2AE9000B5FA6 /* MKJAFNetWorkHelp.m */; };
+		695C6C361D1A30F8000B5FA6 /* MKJCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 695C6C341D1A30F8000B5FA6 /* MKJCollectionViewCell.m */; };
+		695C6C371D1A30F8000B5FA6 /* MKJCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 695C6C351D1A30F8000B5FA6 /* MKJCollectionViewCell.xib */; };
+		695C6C3A1D1A319F000B5FA6 /* MKJModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 695C6C391D1A319F000B5FA6 /* MKJModel.m */; };
+		695C6C4A1D1A6D85000B5FA6 /* C72BF07FA6F73B54D98E0678B5F1AFFB.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 695C6C491D1A6D85000B5FA6 /* C72BF07FA6F73B54D98E0678B5F1AFFB.jpg */; };
+		695C6C4C1D1A7071000B5FA6 /* 5ACD385229C987206C40B34FDF6204DE.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 695C6C4B1D1A7071000B5FA6 /* 5ACD385229C987206C40B34FDF6204DE.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		111FBF3467060C3DAFC8BF67 /* Pods-CMPopTip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CMPopTip.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CMPopTip/Pods-CMPopTip.debug.xcconfig"; sourceTree = "<group>"; };
+		5B9C16949ADC3DA3F2BAA890 /* libPods-CMPopTip.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CMPopTip.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		695C6BFA1D1A257B000B5FA6 /* CMPopTip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CMPopTip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		695C6BFE1D1A257B000B5FA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		695C6C001D1A257B000B5FA6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +60,16 @@
 		695C6C1E1D1A257B000B5FA6 /* CMPopTipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CMPopTipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		695C6C221D1A257B000B5FA6 /* CMPopTipUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMPopTipUITests.m; sourceTree = "<group>"; };
 		695C6C241D1A257B000B5FA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		695C6C301D1A2AE9000B5FA6 /* MKJAFNetWorkHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKJAFNetWorkHelp.m; sourceTree = "<group>"; };
+		695C6C311D1A2AE9000B5FA6 /* MKJAFNetWorkHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKJAFNetWorkHelp.h; sourceTree = "<group>"; };
+		695C6C331D1A30F8000B5FA6 /* MKJCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKJCollectionViewCell.h; sourceTree = "<group>"; };
+		695C6C341D1A30F8000B5FA6 /* MKJCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKJCollectionViewCell.m; sourceTree = "<group>"; };
+		695C6C351D1A30F8000B5FA6 /* MKJCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MKJCollectionViewCell.xib; sourceTree = "<group>"; };
+		695C6C381D1A319F000B5FA6 /* MKJModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKJModel.h; sourceTree = "<group>"; };
+		695C6C391D1A319F000B5FA6 /* MKJModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKJModel.m; sourceTree = "<group>"; };
+		695C6C491D1A6D85000B5FA6 /* C72BF07FA6F73B54D98E0678B5F1AFFB.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = C72BF07FA6F73B54D98E0678B5F1AFFB.jpg; sourceTree = "<group>"; };
+		695C6C4B1D1A7071000B5FA6 /* 5ACD385229C987206C40B34FDF6204DE.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5ACD385229C987206C40B34FDF6204DE.jpg; sourceTree = "<group>"; };
+		A3877CFCF4EF83F7580DC475 /* Pods-CMPopTip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CMPopTip.release.xcconfig"; path = "Pods/Target Support Files/Pods-CMPopTip/Pods-CMPopTip.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53EF9C35E182921CF818778A /* libPods-CMPopTip.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +98,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A366BF5E17D9D03802778CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				111FBF3467060C3DAFC8BF67 /* Pods-CMPopTip.debug.xcconfig */,
+				A3877CFCF4EF83F7580DC475 /* Pods-CMPopTip.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		695C6BF11D1A257B000B5FA6 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +114,8 @@
 				695C6C161D1A257B000B5FA6 /* CMPopTipTests */,
 				695C6C211D1A257B000B5FA6 /* CMPopTipUITests */,
 				695C6BFB1D1A257B000B5FA6 /* Products */,
+				5A366BF5E17D9D03802778CF /* Pods */,
+				CF80F9BC8BDEF6ECE07974DB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,8 +132,17 @@
 		695C6BFC1D1A257B000B5FA6 /* CMPopTip */ = {
 			isa = PBXGroup;
 			children = (
+				695C6C4B1D1A7071000B5FA6 /* 5ACD385229C987206C40B34FDF6204DE.jpg */,
+				695C6C491D1A6D85000B5FA6 /* C72BF07FA6F73B54D98E0678B5F1AFFB.jpg */,
 				695C6C001D1A257B000B5FA6 /* AppDelegate.h */,
 				695C6C011D1A257B000B5FA6 /* AppDelegate.m */,
+				695C6C331D1A30F8000B5FA6 /* MKJCollectionViewCell.h */,
+				695C6C341D1A30F8000B5FA6 /* MKJCollectionViewCell.m */,
+				695C6C351D1A30F8000B5FA6 /* MKJCollectionViewCell.xib */,
+				695C6C311D1A2AE9000B5FA6 /* MKJAFNetWorkHelp.h */,
+				695C6C301D1A2AE9000B5FA6 /* MKJAFNetWorkHelp.m */,
+				695C6C381D1A319F000B5FA6 /* MKJModel.h */,
+				695C6C391D1A319F000B5FA6 /* MKJModel.m */,
 				695C6C031D1A257B000B5FA6 /* ViewController.h */,
 				695C6C041D1A257B000B5FA6 /* ViewController.m */,
 				695C6C061D1A257B000B5FA6 /* Main.storyboard */,
@@ -140,6 +180,14 @@
 			path = CMPopTipUITests;
 			sourceTree = "<group>";
 		};
+		CF80F9BC8BDEF6ECE07974DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B9C16949ADC3DA3F2BAA890 /* libPods-CMPopTip.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 695C6C271D1A257B000B5FA6 /* Build configuration list for PBXNativeTarget "CMPopTip" */;
 			buildPhases = (
+				C089B0FF48ED38CE5172E0E3 /* 📦 Check Pods Manifest.lock */,
 				695C6BF61D1A257B000B5FA6 /* Sources */,
 				695C6BF71D1A257B000B5FA6 /* Frameworks */,
 				695C6BF81D1A257B000B5FA6 /* Resources */,
+				4329CB49F26F1D061D308264 /* 📦 Embed Pods Frameworks */,
+				F03442E7F3F2A1CE6B6F196C /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,9 +294,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				695C6C4A1D1A6D85000B5FA6 /* C72BF07FA6F73B54D98E0678B5F1AFFB.jpg in Resources */,
 				695C6C0D1D1A257B000B5FA6 /* LaunchScreen.storyboard in Resources */,
 				695C6C0A1D1A257B000B5FA6 /* Assets.xcassets in Resources */,
 				695C6C081D1A257B000B5FA6 /* Main.storyboard in Resources */,
+				695C6C371D1A30F8000B5FA6 /* MKJCollectionViewCell.xib in Resources */,
+				695C6C4C1D1A7071000B5FA6 /* 5ACD385229C987206C40B34FDF6204DE.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,12 +319,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4329CB49F26F1D061D308264 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CMPopTip/Pods-CMPopTip-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C089B0FF48ED38CE5172E0E3 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F03442E7F3F2A1CE6B6F196C /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CMPopTip/Pods-CMPopTip-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		695C6BF61D1A257B000B5FA6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				695C6C3A1D1A319F000B5FA6 /* MKJModel.m in Sources */,
+				695C6C361D1A30F8000B5FA6 /* MKJCollectionViewCell.m in Sources */,
 				695C6C051D1A257B000B5FA6 /* ViewController.m in Sources */,
+				695C6C321D1A2AE9000B5FA6 /* MKJAFNetWorkHelp.m in Sources */,
 				695C6C021D1A257B000B5FA6 /* AppDelegate.m in Sources */,
 				695C6BFF1D1A257B000B5FA6 /* main.m in Sources */,
 			);
@@ -413,6 +518,7 @@
 		};
 		695C6C281D1A257B000B5FA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 111FBF3467060C3DAFC8BF67 /* Pods-CMPopTip.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CMPopTip/Info.plist;
@@ -424,6 +530,7 @@
 		};
 		695C6C291D1A257B000B5FA6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3877CFCF4EF83F7580DC475 /* Pods-CMPopTip.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CMPopTip/Info.plist;
@@ -498,6 +605,7 @@
 				695C6C291D1A257B000B5FA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		695C6C2A1D1A257B000B5FA6 /* Build configuration list for PBXNativeTarget "CMPopTipTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +614,7 @@
 				695C6C2C1D1A257B000B5FA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		695C6C2D1D1A257B000B5FA6 /* Build configuration list for PBXNativeTarget "CMPopTipUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +623,7 @@
 				695C6C2F1D1A257B000B5FA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

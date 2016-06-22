@@ -1,0 +1,8 @@
+platform:ios,'7.0'
+target 'CMPopTip' do
+pod 'CMPopTipView'
+pod 'AFNetworking'
+pod 'SDWebImage'
+pod 'MJExtension'
+end
+
